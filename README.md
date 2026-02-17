@@ -1,12 +1,12 @@
 # face-age-gender-detection-system-
 
 
-Overview
+👉Overview
 
 This project is a Django-based web application that performs face detection and demographic prediction (age and gender) using OpenCV DNN models.
 It exposes a REST API endpoint that accepts a base64-encoded image and returns detected face coordinates along with predicted age and gender.
 
-Features
+👉Features
 
 Face detection using OpenCV DNN
 
@@ -18,7 +18,7 @@ Confidence score reporting
 
 JSON API response
 
-Tech Stack
+👉Tech Stack
 
 Python
 
@@ -30,7 +30,7 @@ NumPy
 
 Pre-trained Caffe models
 
-Due to GitHub file size limitations, the pre-trained Caffe model files 
+👉Due to GitHub file size limitations, the pre-trained Caffe model files 
 (.caffemodel) are not included in this repository.
 
 Please download the following models and place them in the project directory:
@@ -39,5 +39,5 @@ Please download the following models and place them in the project directory:
 - gender_net.caffemodel
 - opencv_face_detector_uint8.pb
 
-You can download them from the official OpenCV repository:
+👉You can download them from the official OpenCV repository:
 https://github.com/spmallick/learnopencv/tree/master/AgeGender
